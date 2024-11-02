@@ -9,6 +9,9 @@ tasks:
     vpc_subnet_id: subnet-036e5b66c48748775
     instance_type: t2.micro
     security_group: default
+    region: "ap-south-1"
+    aws_access_key: "{{key_name}}"
+    aws_secret_key: "{{secret_key}}" 
     network_interfaces:
       - assign_public_ip: true
     image_id: ami-0dee22c13ea7a9a67
